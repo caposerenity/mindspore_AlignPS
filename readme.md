@@ -2,7 +2,7 @@
 
 ## 概述
 
-AlignPS[论文地址参见](https://openaccess.thecvf.com/content/CVPR2021/papers/Yan_Anchor-Free_Person_Search_CVPR_2021_paper.pdf)是CVPR2021的中稿工作，论文全名为Anchor-Free Person Search。其模型没有anchor box，在检测分支，AlignPS通过在卷积阶段加入FPN、在计算损失阶段加入centerness这一分支，实现了更高的检测精度。最终模型可以达到CUHK-SYSU数据集上95.1%的mAP精度。
+AlignPS[论文地址参见](https://openaccess.thecvf.com/content/CVPR2021/papers/Yan_Anchor-Free_Person_Search_CVPR_2021_paper.pdf)是CVPR2021的中稿工作，论文全名为Anchor-Free Person Search。其模型没有anchor box，在检测分支，AlignPS通过在卷积阶段加入FPN、在计算损失阶段加入centerness这一分支，实现了更高的检测精度。最终模型可以达到CUHK-SYSU数据集上95.1%的mAP精度。该论文的(PyTorch实现可参考)[https://github.com/daodaofr/AlignPS]。
 
 如下为MindSpore使用CUHK-SYSU数据集对AlignPS进行训练的示例。
 
